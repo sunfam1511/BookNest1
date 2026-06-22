@@ -1,0 +1,103 @@
+/* =====================
+HOT DEAL PAGE
+===================== */
+
+.deal-banner{
+    background:linear-gradient(135deg,#eaf3ff,#ffffff);
+    padding:90px 0;
+}
+
+.deal-banner-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+}
+
+.deal-tag{
+    background:#ff9800;
+    padding:10px 20px;
+    border-radius:30px;
+    font-weight:600;
+}
+
+.deal-banner h1{
+    font-size:60px;
+    margin:25px 0;
+    font-family:"Times New Roman", serif;
+}
+
+.deal-banner p{
+    font-size:20px;
+}
+
+.countdown{
+    padding:60px 0;
+}
+
+.timer{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+.timer div{
+    width:120px;
+    height:120px;
+
+    background:white;
+
+    border-radius:20px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    box-shadow:var(--shadow);
+}
+
+.timer span{
+    font-size:40px;
+    font-weight:bold;
+    color:#0d47a1;
+}
+
+.discount-badge{
+    position:absolute;
+    top:15px;
+    left:15px;
+
+    background:#ff3d00;
+    color:white;
+
+    padding:8px 14px;
+    border-radius:10px;
+
+    font-weight:bold;
+}
+
+
+.book-card{
+    position:relative;
+}
+
+.old-price{
+    text-decoration:line-through;
+    color:#888;
+    margin:10px 0;
+}
+
+.deal-banner h1{
+    animation:zoom 2s infinite alternate;
+}
+
+@keyframes zoom{
+    from{
+        transform:scale(1);
+    }
+
+    to{
+        transform:scale(1.05);
+    }
+}
